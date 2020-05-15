@@ -168,7 +168,7 @@ for (let i = 0; i < 2; i++) {
 /*цикл while*/
 
 
-/* let i = 0;
+let i = 0;
     while (i < 2); {
     let a = prompt('Введите обязательну статью расходов на месяц', ''),
         b = prompt('Во сколько это обойдется?', '');
@@ -181,12 +181,12 @@ for (let i = 0; i < 2; i++) {
      }
 
      i++;
-     }; */
+     };
 
 
 //цикл do while
 
-let i = 0;
+/* let i = 0;
     let a = prompt('Введите обязательну статью расходов на месяц', ''),
         b = prompt('Во сколько это обойдется?', '');
     if ( typeof(a)==='string' && typeof(a) != null && typeof(b) != null && a != "" && b != "" && a.length < 50) {
@@ -196,7 +196,7 @@ let i = 0;
      }
      while (i < 2);
 };
-
+ */
 
 
 appData.moneyPerDay = appData.budjet / 30 ;
